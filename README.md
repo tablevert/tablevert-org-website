@@ -7,4 +7,4 @@
 
 `tablevert-org-website` is the repository from which the [tablevert.org] project web site is built. 
 
-The main purpose of that site is to provide the project documentation, which is written in the [AsciiDoc] format and rendered to HTML with the [Asciidoctor] toolchain using the [`AsciidoctorJ`] Java bindings in a Maven project.
+The main purpose of that site is to provide the project documentation, which is written in the [AsciiDoc] format and rendered to HTML using the [Asciidoctor] toolchain and the [`AsciidoctorJ`] Java bindings in a Maven project.
