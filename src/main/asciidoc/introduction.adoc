@@ -1,3 +1,0 @@
-:linkcss:
-
-Hallo Welt!
