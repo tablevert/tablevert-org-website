@@ -1,0 +1,6 @@
+[#tablevert-core]
+== tablevert-core
+
+https://github.com/tablevert/tablevert-core[`tablevert-core`] is a Java library containing the core http://www.tablevert.org[Tablevert] functionality.
+
+A more detailed description will follow.

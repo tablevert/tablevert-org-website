@@ -28,8 +28,7 @@
 <!--                    <outputDirectory>target/docs</outputDirectory>-->
                     <backend>html5</backend>
                     <attributes>
-                        <stylesheet>resources/css/tablevert-org.css</stylesheet>
-<!--                        <stylesdir>../resources/css</stylesdir>-->
+                        <stylesheet>assets/css/tablevert-org.css</stylesheet>
                     </attributes>
                 </configuration>
                 <executions>

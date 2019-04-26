@@ -1,0 +1,5 @@
+[#tablevert-org-website]
+== tablevert-org-website
+
+The content of the Tablevert web site is stored in the https://github.com/tablevert/tablevert-org-website[`tablevert-org-website`] repository. It is written in the http://www.asciidoc.org[AsciiDoc] format and rendered to HTML using the https://asciidoctor.org[Asciidoctor] toolchain along with the https://github.com/asciidoctor/asciidoctorj[AsciidoctorJ] Java bindings in a Maven project.
+

@@ -1,28 +1,20 @@
-[overview]
+[#overview]
 == Overview
 
-=== Tablevert
+Tablevert is a toolset for the conversion of data tables from one format to another.
 
-http://www.tablevert.org[Tablevert] is a toolset for the conversion of data tables from one format to another.
-
+[example]
+.Database to Web
 Imagine your data is stored safely in a database. Now your product owner demands that filtered and sorted subsets of the records be displayed as a table in his web UI. Beneath that table, a nice little button is expected to offer an XLSX file download of the data.
 
 All Tablevert access to source tables is read-only. In this context, a _table_ does not necessarily mean a database table, but rather any view or formula which results in tabular data, e.g. a `SELECT` statement.
 
 The following modules are offered:
 
-* https://github.com/tablevert/tablevert-core[`tablevert-core`] is a Java library containing the actual conversion logic.
+* link:#tablevert-core[`tablevert-core`] is a Java library containing the actual conversion logic.
 
-* https://github.com/tablevert/tablevert-service[`tablevert-service`] is a Spring Boot application offering Tablevert functionality as a REST API.
+* link:#tablevert-service[`tablevert-service`] is a Spring Boot application offering Tablevert functionality as a REST API.
 
-* https://github.com/tablevert/tablevert-org-website[`tablevert-org-website`] contains the source code of this web site.
+* link:#tablevert-org-website[`tablevert-org-website`] contains the source code of this web site.
 
-=== tablevert-core
-
-https://github.com/tablevert/tablevert-core[`tablevert-core`] is a Java library containing the core http://www.tablevert.org[Tablevert] functionality.
-
-A more detailed description will follow.
-
-=== tablevert-org-website
-
-The content of the Tablevert web site is written in the http://www.asciidoc.org[AsciiDoc] format and rendered to HTML using the https://asciidoctor.org[Asciidoctor] toolchain along with the https://github.com/asciidoctor/asciidoctorj[AsciidoctorJ] Java bindings in a Maven project.
+All Tablevert source code can be found on https://github.com/tablevert[GitHub].

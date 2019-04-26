@@ -1,7 +1,24 @@
 :linkcss:
+:sectanchors:
 :includedir: _includes
+:imagesdir: assets/img
 
-= Tablevert - Converting Data Tables from one Format to another
+= Tablevert - Converting Data Tables
+:favicon: {imagesdir}/Tablevert-Logo.png
+:nofooter:
+:docinfo: shared-footer
+:description: Documentation site of the Tablevert open-source project
+:toc:
+
+[#tablevert-logo]
+image::Tablevert-Logo.png[Tablevert,123,110]
+
+:sectnums:
 
 include::{includedir}/overview.adoc[]
 
+include::{includedir}/tablevert-core.adoc[]
+
+include::{includedir}/tablevert-service.adoc[]
+
+include::{includedir}/tablevert-org-website.adoc[]
