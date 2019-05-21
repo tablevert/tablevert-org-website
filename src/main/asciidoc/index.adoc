@@ -21,4 +21,6 @@ include::{includedir}/tablevert-core.adoc[]
 
 include::{includedir}/tablevert-service.adoc[]
 
+include::{includedir}/tablevert-sample-webapp.adoc[]
+
 include::{includedir}/tablevert-org-website.adoc[]

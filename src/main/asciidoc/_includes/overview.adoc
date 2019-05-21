@@ -9,12 +9,15 @@ Imagine your data is stored safely in a database. Now your product owner demands
 
 All Tablevert access to source tables is read-only. In this context, a _table_ does not necessarily mean a database table, but rather any view or formula which results in tabular data, e.g. a `SELECT` statement.
 
-The following modules are offered:
+All Tablevert source code can be found on https://github.com/tablevert[GitHub]. The following repositories are offered:
 
 * link:#tablevert-core[`tablevert-core`] is a Java library containing the actual conversion logic.
 
 * link:#tablevert-service[`tablevert-service`] is a Spring Boot application offering Tablevert functionality as a REST API.
 
+* link:#tablevert-sample-webapp[`tablevert-sample-webapp`] is a sample Spring Boot / Thymeleaf web application integrating Tablevert
+functionality by means of a web component.
+
 * link:#tablevert-org-website[`tablevert-org-website`] contains the source code of this web site.
 
-All Tablevert source code can be found on https://github.com/tablevert[GitHub].
+

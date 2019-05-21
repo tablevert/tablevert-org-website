@@ -1,0 +1,9 @@
+[#tablevert-sample-webapp]
+== tablevert-sample-webapp
+
+https://github.com/tablevert/tablevert-sample-webapp[`tablevert-sample-webapp`] is a Spring Boot (with Thymeleaf) web
+application for TESTING Tablevert functionalities. It contains a web component which can be (re-)used to easily integrate
+Tablevert tables into an HTML5 web application.
+
+The sample web application is not intended for productive use.
+
